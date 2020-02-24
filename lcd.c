@@ -19,7 +19,7 @@ void pulse(void)
 	setPin(ODR(LCD_PORT),LCD_EN_Pin);				//Set Enable Pin
 	_delay_us(5);					//delay
 	clrPin(ODR(LCD_PORT),LCD_EN_Pin);				//Clear Enable Pin
-	_delay_us(50);
+	_delay_us(100);
 }
 
 
